@@ -3,6 +3,10 @@ if(nome == null){
     window.location="https://www.google.com.br/?hl=pt-BR"
 }else if(nome == 'Anna' || nome == 'Anna Clara' || nome == 'anna' || nome == 'anna clara' || nome == 'Amor' || nome == 'amor' || nome == 'Docinho' || nome == 'docinho')
     alert('Seja bem vida meu amorrrr!!!')
+    else{
+        alert('Não é meu docinho :(')
+        window.location= "https://www.google.com.br/?hl=pt-BR"
+    }
 let p1 = document.querySelector('p.parag')
 let p2= document.querySelector('p.p2')
 let yes = document.querySelector('button.sim')
