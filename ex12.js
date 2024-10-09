@@ -52,7 +52,7 @@ function wha(){
         return new Promise(resolve => setTimeout(resolve, ms));
     }
     async function demo() {
-        for (let i = 0; i < 7; i++) {
+        for (let i = 0; i < 5; i++) {
             console.log(`Waiting ${i} seconds...`);
             await sleep(i * 1000);
         }
